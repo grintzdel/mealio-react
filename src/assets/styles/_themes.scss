@@ -2,7 +2,7 @@
   padding: 8px 15px;
   border-radius: 20px;
   cursor: pointer;
-  transition: 0.2s opacity;
+  transition: 0.2s opacity ease-in-out;
 
   &:hover {
     opacity: 0.8;
@@ -13,10 +13,22 @@
   background-color: var(--primary);
   color: white;
   border: 1px solid var(--primary);
+  transition: 0.2s all ease-in-out;
+
+  &:hover {
+    background-color: white;
+    color: var(--primary);
+  }
 }
 
 .btn-secondary {
   background-color: white;
   color: var(--primary);
   border: 1px solid var(--primary);
+  transition: 0.2s all ease-in-out;
+
+  &:hover {
+    background-color: var(--primary);
+    color: white;
+  }
 }

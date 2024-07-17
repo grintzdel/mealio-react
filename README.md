@@ -1,8 +1,30 @@
-# React + Vite
+# Single page React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Single page simpliste d'un site de recettes de cuisine.
 
-Currently, two official plugins are available:
+## Installation
+### AVOIR NODE D'INSTALLÉ !!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+git clone https://github.com/grintzdel/mealio-react.git
+```
+
+```
+cd mealio-react
+```
+
+```
+npm i 
+```
+
+## Développement et serveur local 
+
+```
+npm run dev
+```
+
+## Build
+
+```
+npm run build
+```
